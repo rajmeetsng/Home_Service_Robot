@@ -50,6 +50,9 @@ To operate the robot, click on the window for the `keyboard_teleop` node, and fo
 
 Save the map using command " rosrun map_server map_saver -f mymap " with name of map = mymap
 
+** Mapping using GMapping **
+![Alt text](./Map.png)
+
 ### Part 2: Navigation
 
 The next task for the robot is navigation. To test the robot's navigation, run the `test_navigation.sh` script:
