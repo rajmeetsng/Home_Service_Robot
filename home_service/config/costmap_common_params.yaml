@@ -1,0 +1,13 @@
+map_type: costmap
+
+obstacle_range: 5.0 
+raytrace_range: 5.0 
+
+transform_tolerance: 1 
+
+robot_radius: 0.2 
+inflation_radius: 0.25 
+cost_scaling_factor: 5.0
+
+observation_sources: laser_scan_sensor
+laser_scan_sensor: {sensor_frame: base_scan, data_type: LaserScan, topic: /scan, marking: true, clearing: true}
