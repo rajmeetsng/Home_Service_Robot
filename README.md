@@ -71,6 +71,6 @@ $ ./home_service.sh
 
 An object (green cube) will show up in Rviz at pick up location. The robot will navigate to the object and then to the drop off location. 
 
-![Alt text](./images/4.png)
 
+![Alt text](./images/4.png)
 
